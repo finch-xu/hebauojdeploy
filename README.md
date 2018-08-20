@@ -1,7 +1,10 @@
 ## 环境准备
 这个OJ安装程序是把QDUOJ的安装程序作了修改备份上来的。万分感谢QDUOJ！
+
 如果大家想使用请去原版git：QDUOJ的地址在这里: [https://github.com/QingdaoU/OnlineJudgeDeploy/tree/2.0](https://github.com/QingdaoU/OnlineJudgeDeploy/tree/2.0)
+
 我用的Ubuntu14的环境
+
 这里的docker-compose.yml我做了修改，把前端部分改成了我的阿里云容器仓库地址。
 ### Linux 环境
 如何部署参照教程：[https://my.oschina.net/finchxu/blog/1927273](https://my.oschina.net/finchxu/blog/1927273)
@@ -10,7 +13,7 @@
 1. 请选择磁盘空间富余的位置，运行下面的命令
 
     ```bash
-    git clone https://github.com/finch-xu/hebauojdeploy.git && cd OnlineJudgeDeploy
+    git clone https://github.com/finch-xu/hebauojdeploy.git && cd hebauojdeploy
     ```
 
 2. 启动服务
@@ -34,6 +37,7 @@
 ## 定制
 
 我写的定制前端的笔记在这里：[https://my.oschina.net/finchxu/blog/1930017](https://my.oschina.net/finchxu/blog/1930017)
+
 和这个：[https://my.oschina.net/finchxu/blog/1930191](https://my.oschina.net/finchxu/blog/1930191)
 
 2.0 版将一些常用设置放到了后台管理中，您可以直接登录管理后台对系统进行配置，而无需进行代码改动。
